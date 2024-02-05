@@ -4,14 +4,14 @@ import Image3 from '../../assets/project3.png'
 import Image4 from '../../assets/project4.png'
 import Image5 from '../../assets/project5.png'
 import Image6 from '../../assets/project6.png'
-import Image7 from '../../assets/project7.jpg'
+/*import Image7 from '../../assets/project7.jpg'*/
 import Image8 from '../../assets/project8.png'
-import Image9 from '../../assets/project9.jpg'
+import Image9 from '../../assets/project9.png'
 
 const data = [
     {
         id: 1,
-        category: 'uiux',
+        category: 'frontend',
         image: Image1,
         title: "Pomodor Focus ",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
@@ -38,7 +38,7 @@ const data = [
     },
     {
         id: 4,
-        category: 'uiux',
+        category: 'frontend',
         image: Image4,
         title: "Tape ",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
@@ -56,13 +56,14 @@ const data = [
     },
     {
         id: 6,
-        category: 'frontend',
+        category: 'backend',
         image: Image6,
         title: "Movie Hub ",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
         demo: 'https://moviehuub.netlify.app',
         github: 'https://github.com/Mouin-bkr/movie-hub'
     },
+    /*
     {
         id: 7,
         category: 'frontend',
@@ -71,7 +72,7 @@ const data = [
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/Mouin-bkr'
-    },
+    }*/
     {
         id: 8,
         category: 'backend',
@@ -87,7 +88,7 @@ const data = [
         image: Image9,
         title: "Birthday Wish ",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'hhttps://mouin-bkr.github.io/Birthday-Wish/',
+        demo: 'https://mouin-bkr.github.io/Birthday-Wish/',
         github: 'https://github.com/Mouin-bkr/Birthday-Wish'
     }
 ]
